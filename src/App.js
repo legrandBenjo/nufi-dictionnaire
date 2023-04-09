@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import CalendrierPersonnes from './CalendrierPersonnes';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -15,9 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 
         </a>
-      </header>
+      </header> */}
+       <h1 className="app-title">Ŋwɑ̀'nǐsáhlíé' 2023</h1> {/* ajouter une classe CSS */}
+      <CalendrierPersonnes />
     </div>
   );
 }
