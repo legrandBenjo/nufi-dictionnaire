@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+Pour la mise à jour des noms des personnes, il faut aller dans le repertoire components qui est dans src.
+Dans cahque composant Perseonnesxxx.js, il faut changer le nom en francais par le nom du village
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
