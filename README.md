@@ -6,6 +6,9 @@ Pour la mise à jour des noms des personnes, il faut aller dans le repertoire co
 ## A vériier:
 La liste des noms des jours en anglais, car il doit y avoir une faute quelque part. 
 
+## Propositions
+- Utiliser les double-quote pour les string afin d'éviter les collisitons avec les cout de glotte.
+
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
