@@ -13,18 +13,18 @@ import PersonnesNovembre from "./components/PersonnesNovembre";
 import PersonnesDecembre from "./components/PersonnesDecembre";
 import './CalendrierPersonnes.css';
 
-const mois = [  
-  { nom: "Ngù'fí", personnes: PersonnesJanvier },  
-  { nom: "Nkùɑ̀nʉ̀ɑ̀", personnes: PersonnesFevrier },  
-  { nom: "Mbàkngòfāt", personnes: PersonnesMars },  
-  { nom: "Sò'njɑ̀ɑ̀", personnes: PersonnesAvril },  
-  { nom: "Njwēnɑ̌hntà", personnes: PersonnesMai },  
-  { nom: "Mòmòshʉ̄", personnes: PersonnesJuin },  
-  { nom: "Ntūmbhìngòfāt", personnes: PersonnesJuillet },  
-  { nom: "Mɑ̄ngà'nshì", personnes: PersonnesAout },  
-  { nom: "Kùkū", personnes: PersonnesSeptembre },  
-  { nom: "Ndǔ'nzɑ̄", personnes: PersonnesOctobre },  
-  { nom: "Nkhùɑnʉ̀ɑ̀", personnes: PersonnesNovembre },  
+const mois = [
+  { nom: "Ngù'fí", personnes: PersonnesJanvier },
+  { nom: "Nkùɑ̀nʉ̀ɑ̀", personnes: PersonnesFevrier },
+  { nom: "Mbàkngòfāt", personnes: PersonnesMars },
+  { nom: "Sò'njɑ̀ɑ̀", personnes: PersonnesAvril },
+  { nom: "Njwēnɑ̌hntà", personnes: PersonnesMai },
+  { nom: "Mòmòshʉ̄", personnes: PersonnesJuin },
+  { nom: "Ntūmbhìngòfāt", personnes: PersonnesJuillet },
+  { nom: "Mɑ̄ngà'nshì", personnes: PersonnesAout },
+  { nom: "Kùkū", personnes: PersonnesSeptembre },
+  { nom: "Ndǔ'nzɑ̄", personnes: PersonnesOctobre },
+  { nom: "Nkhùɑnʉ̀ɑ̀", personnes: PersonnesNovembre },
   { nom: "Ncátmɑ̄ŋū", personnes: PersonnesDecembre }
 ];
 
@@ -54,7 +54,7 @@ const CalendrierPersonnes = () => {
             <th>Nzîngū</th>
             <th>Nzîsō</th>
             <th>Nsū'kwɑ̀</th>
-            <th>Nthʉ̄'ntāā / Líé'ngā'</th>
+            <th>Nthʉ̄'ntāā</th>
           </tr>
         </thead>
         <tbody>
@@ -62,12 +62,13 @@ const CalendrierPersonnes = () => {
             <tr key={i}>
               {personnesMois.slice(i * 8, (i + 1) * 8).map((personne, j) => (
                 <td key={j}>
-                  {personne.numero} <br/>
-                  {personne.nom}
+                    <div className="f4 dark-red">{personne.jour}</div> <br/>
+                    <div className="b">{personne.numero}</div> <br/>
+                    <div className="">{personne.nom}</div>
                 </td>
               ))}
             </tr>
-              ))}
+          ))}
         </tbody>
       </table>
       <div className="ph3 mt4 mois">
@@ -75,7 +76,7 @@ const CalendrierPersonnes = () => {
         <a className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib dark-green" onClick={moisSuivant}>Mɑ̄ŋʉ̄ Ntāmbhì</a>
       </div>
     </div>
-    );
-  }
-      
+  );
+}
+
 export default CalendrierPersonnes;

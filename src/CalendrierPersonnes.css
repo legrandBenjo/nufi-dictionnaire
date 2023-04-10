@@ -1,5 +1,5 @@
 .mois {
-text-align: center;
+  text-align: center;
 }
 
 table {
@@ -69,7 +69,8 @@ tbody td:hover {
   transition: color .15s ease-in;
 }
 
-.link:link, .link:visited {
+.link:link,
+.link:visited {
   transition: color .15s ease-in;
 }
 
@@ -138,6 +139,11 @@ tbody td:hover {
   background-color: #000;
 }
 
+.dark-red {
+  color: #e7040f;
+}
+
+
 .bg-near-black {
   background-color: #111;
 }
@@ -164,6 +170,10 @@ tbody td:hover {
 
 .bg-hot-pink {
   background-color: #ff41b4;
+}
+
+.bg-dark-red {
+  background-color: #e7040f;
 }
 
 .bg-dark-green {
@@ -204,6 +214,26 @@ tbody td:hover {
   text-transform: uppercase;
 }
 
+.f1 {
+  font-size: 3rem;
+}
+
+.f2 {
+  font-size: 2.25rem;
+}
+
+.f3 {
+  font-size: 1.5rem;
+}
+
+.f4 {
+  font-size: 1.25rem;
+}
+
+.f5 {
+  font-size: 1rem;
+}
+
 .f6 {
   font-size: .875rem;
 }
@@ -213,7 +243,8 @@ tbody td:hover {
   transition: opacity .15s ease-in;
 }
 
-.dim:hover, .dim:focus {
+.dim:hover,
+.dim:focus {
   opacity: .5;
   transition: opacity .15s ease-in;
 }
@@ -223,3 +254,6 @@ tbody td:hover {
   transition: opacity .15s ease-out;
 }
 
+.b {
+  font-weight: bold;
+}
