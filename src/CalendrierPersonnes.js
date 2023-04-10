@@ -49,8 +49,8 @@ const CalendrierPersonnes = () => {
           </tbody>
         </table>
         <div className="ph3 mt4">
-          <div className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib mid-green" onClick={moisPrecedent}>Mɑ̄ŋʉ̄ Pēēsì</div>
-          <div className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib dark-blue" onClick={moisSuivant}>Mɑ̄ŋʉ̄ Ntāmbhì</div>
+          <div className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib mid-green" onClick={moisPrecedent}>Mɑ̄ŋū Pēēsì</div>
+          <div className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib dark-blue" onClick={moisSuivant}>Mɑ̄ŋū Ntāmbhì</div>
         </div>
       </div>
     </div>
