@@ -1,5 +1,5 @@
 const personnesFevrier = [
-  { numero: 1, nom: 'Jean', jour: 'Thursday' },
+  { numero: 1, nom: 'Làmsí nshù', jour: 'Thursday' },
   { numero: 2, nom: 'Sophie', jour: 'Friday' },
   { numero: 3, nom: 'Pierre', jour: 'Saturday' },
   { numero: 4, nom: 'Marie', jour: 'Sunday' },
