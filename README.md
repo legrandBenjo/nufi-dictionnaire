@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 Pour la mise à jour des noms des personnes, il faut aller dans le repertoire components qui est dans src.
-## Dans chaque composant PerseonnesXxx.js, il faut changer le nom en francais par le nom du village
+## Dans chaque composant PersonnesXxx.js, il faut changer le nom en francais par le nom du village
 
 ## A vériier:
 La liste des noms des jours en anglais, car il doit y avoir une faute quelque part. 
