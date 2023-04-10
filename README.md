@@ -9,6 +9,9 @@ La liste des noms des jours en anglais, car il doit y avoir une faute quelque pa
 ## Propositions
 - Utiliser les double-quote pour les string afin d'éviter les collisions avec les cout de glotte.
 
+## TODO
+Compléter les noms de villages usuels pour les mois Novembre et Decembre
+
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
