@@ -72,8 +72,8 @@ const CalendrierPersonnes = () => {
         </tbody>
       </table>
       <div className="ph3 mt4 mois">
-        <a className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib mid-green" onClick={moisPrecedent}>Mɑ̄ŋū Pēēsì</a>
-        <a className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib dark-green" onClick={moisSuivant}>Mɑ̄ŋū Ntāmbhì</a>
+        <a className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib mid-green" onClick={moisPrecedent}>Mɑ̄ŋʉ̄ Pēēsì</a>
+        <a className="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib dark-green" onClick={moisSuivant}>Mɑ̄ŋʉ̄ Ntāmbhì</a>
       </div>
     </div>
   );
