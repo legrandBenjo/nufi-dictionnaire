@@ -19,7 +19,7 @@ const CalendrierPersonnes = () => {
 
   return (
     <div>
-      <div className="bg-light-green dib br3 pa3 ma3 grow bw2 shadow-5">
+      <div className="bg-light-green dib br3 pa3 ma3 bw2 showdow-5">
         <h2>{mois[moisActuel].nom}</h2>
         <table>
           <thead>
