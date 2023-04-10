@@ -3,8 +3,11 @@
 Pour la mise à jour des noms des personnes, il faut aller dans le repertoire components qui est dans src.
 ## Dans chaque composant PersonnesXxx.js, il faut changer le nom en francais par le nom du village
 
-## A vériier:
+## A vérifier:
 La liste des noms des jours en anglais, car il doit y avoir une faute quelque part. 
+
+## Propositions
+- Utiliser les double-quote pour les string afin d'éviter les collisitons avec les cout de glotte.
 
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
