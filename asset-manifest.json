@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nufi-dictionnaire/static/css/main.4e156cfe.css",
-    "main.js": "/nufi-dictionnaire/static/js/main.aea0dd95.js",
+    "main.js": "/nufi-dictionnaire/static/js/main.5e3cc9dd.js",
     "static/js/787.fcb35911.chunk.js": "/nufi-dictionnaire/static/js/787.fcb35911.chunk.js",
     "index.html": "/nufi-dictionnaire/index.html",
     "main.4e156cfe.css.map": "/nufi-dictionnaire/static/css/main.4e156cfe.css.map",
-    "main.aea0dd95.js.map": "/nufi-dictionnaire/static/js/main.aea0dd95.js.map",
+    "main.5e3cc9dd.js.map": "/nufi-dictionnaire/static/js/main.5e3cc9dd.js.map",
     "787.fcb35911.chunk.js.map": "/nufi-dictionnaire/static/js/787.fcb35911.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e156cfe.css",
-    "static/js/main.aea0dd95.js"
+    "static/js/main.5e3cc9dd.js"
   ]
 }
